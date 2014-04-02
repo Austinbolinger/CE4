@@ -1,7 +1,8 @@
 CE4
 ===
+Austin Bolinger  - 02 April 14
 ##Tests
-######Test A
+#####Test A
 Reading the requirements for part A, I noticed that it was simple code that required doing the something three times repeatedly. I wrote out pseudo code as follows:
 
 Store 9 in BO (RAM)
@@ -26,7 +27,7 @@ STA Label3
 
 Then a JMP was required to loop it back to the beginning of the code.
 
-######Test B
+#####Test B
 My first step to understanding this part was again pseudo code.
 Retrieve value from B0
 Double value (add itself to itself)
