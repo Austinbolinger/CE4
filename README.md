@@ -2,7 +2,7 @@ CE4
 ===
 Austin Bolinger  - 02 April 14
 ##Tests
-#####Test A
+#####Test A (Simple Memory Manipulation)
 Reading the requirements for part A, I noticed that it was simple code that required doing the something three times repeatedly. I wrote out pseudo code as follows:
 
 Store 9 in BO (RAM)
@@ -27,16 +27,7 @@ STA Label3
 
 Then a JMP was required to loop it back to the beginning of the code.
 
-
-#Links to each Test
-https://github.com/Austinbolinger/CE4/blob/master/simpleMemoryManipulation.psm
-
-https://github.com/Austinbolinger/CE4/blob/master/mathematics.psm
-
-https://github.com/Austinbolinger/CE4/blob/master/loops.psm
-
-
-#####Test B
+#####Test B (Mathematics)
 My first step to understanding this part was again pseudo code.
 Retrieve value from B0
 Double value (add itself to itself)
@@ -49,7 +40,7 @@ LDAD (loads from RAM B0)
 ADDD (reads RAM B0 and adds it to accumulator)
 ADDI (subtract four = add $C) 
 
-#####Test C
+#####Test C (Loops)
 Again, I started out with pseudo code.
 
 Read in from port 3
@@ -83,6 +74,15 @@ OUT 2
 ADDI 1 (add one to get one less than original number)
 
 JMP (loop back to first output)
+
+
+#Links to each Test
+https://github.com/Austinbolinger/CE4/blob/master/simpleMemoryManipulation.psm
+
+https://github.com/Austinbolinger/CE4/blob/master/mathematics.psm
+
+https://github.com/Austinbolinger/CE4/blob/master/loops.psm
+
 
 
 #####Documentation
