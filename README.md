@@ -27,6 +27,15 @@ STA Label3
 
 Then a JMP was required to loop it back to the beginning of the code.
 
+
+#Links to each Test
+https://github.com/Austinbolinger/CE4/blob/master/simpleMemoryManipulation.psm
+
+https://github.com/Austinbolinger/CE4/blob/master/mathematics.psm
+
+https://github.com/Austinbolinger/CE4/blob/master/loops.psm
+
+
 #####Test B
 My first step to understanding this part was again pseudo code.
 Retrieve value from B0
